@@ -1,5 +1,5 @@
 //Tentei criar um construtor aqui com arrow Function
-/*const Pessoa = (name,type,age) => {
+const Pessoa = (name,type,age) => {
     this.name = name;
     this.type = type;
     this.age = age;
@@ -14,9 +14,9 @@ ShowIt();
 
 //Ou mesmo que eu faça dessa forma aqui em baixo, ainda assim não estou conseguindo...
 const pessoa_2 = new Pessoa('Carey','Female','24');
-console.log(pessoa_2);*/
+console.log(pessoa_2);
 
-//Só dá certo se eu fizer assim
+//Só dá certo se eu fizer assim, aí funciona normal!
 function Persona(name,type,age){
     this.name = name;
     this.type = type;
