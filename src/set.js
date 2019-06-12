@@ -17,3 +17,11 @@ let teste2 = new Proxy = (target,...args) => {
 
 teste2(1,2,3,4,5)
 
+//NEW TRAINING
+const creatures = new Set();
+
+creatures.add('Tripofos');
+creatures.add('Basinros');
+creatures.add('Plomitoris');
+
+console.log(creatures);
