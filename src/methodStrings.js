@@ -19,5 +19,5 @@ window.onload = () => {
     console.log(texto.includes('ipsum mefiliuM'));//false
 
     //repete um conteúdo várias vezes
-    console.log('Maconha well fumed!'.repeat(10));
+    console.log('Frimonha well fumed!'.repeat(10));
 }

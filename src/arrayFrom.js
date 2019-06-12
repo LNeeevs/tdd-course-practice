@@ -12,10 +12,10 @@ window.onload = () => {
     //mostra o ultimo caractere
     console.log(Array.from(texto).slice(1));
 
-    console.log(Array.from(texto).concat('marihuana is life'));
+    console.log(Array.from(texto).concat('mifrue is life'));
 
     console.log(Array.from(texto).entries());
 
     //troca cada posição no array pelo novo resultado
-    console.log(Array.from(texto).fill('maconha'));
+    console.log(Array.from(texto).fill('macrunhaa'));
 }

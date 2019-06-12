@@ -37,7 +37,7 @@ console.log(testando);
 //ENCONTRA O OBJETO DENTRO DO ARRAY. SE FOR O QUE SE PROCURA, ALTERA O OBJETO NA PROPRIEDADE DESEJADA
 const testing = superArray
     .filter(superArray => superArray.name === 'Lucas' && superArray.age >= 10)
-    .map(superArray => superArray.name = 'Gostosão')
+    .map(superArray => superArray.name = 'Yooh')
 console.log(superArray);
 
 
@@ -63,12 +63,12 @@ const teste000 = [
         age: 4200
     },
     {
-        name: 'Maconha',
+        name: 'Marunha',
         age: 42
     }
 ];
 
-const testoso = teste000.find(teste000 => teste000.name == 'Maconha');
+const testoso = teste000.find(teste000 => teste000.name == 'Marunha');
 console.log(testoso);
 
 const testeil = teste000.fill('Pablito Escobarzito', 2);
